@@ -1,0 +1,24 @@
+/*CSS Document for Contact Us Form Wright Livestock*/
+body{
+	background-color:#254e58;
+	margin-right:15%;
+	margin-left:15%;
+	width:70%;
+	height:50%;
+}
+section{
+	background-color:#88bdbc;
+	color: #87CEFA;
+	padding: 5px;
+}
+h1{
+	font-size: 42pt;
+	color:#87CEFA;
+	
+}
+footer{
+	color: #eeeeee;
+	font-style: italic;
+}
+
+}

@@ -1,0 +1,154 @@
+/*CSS Document for responsive multimedia site Flanders Clan*/
+/*Body*/
+body 
+{background-color:#87CEFA;
+margin-right: 15%;
+margin-left: 15%;
+width: 70%;}
+ul {background-color:#000000;
+margin-right: 15%;
+margin-left: 15%;
+width: 70%}
+
+.banner{ width:100%;background-color:black;}
+
+	body nav{
+		width:100%;
+		background-color: #222222;
+		color:#FFFFFF;
+		font-family: garamond;
+		
+	}
+	.topnav a{
+		color:#000000;
+		font-family: garamond;
+		font-size:1.5em;
+		font-style:bold;
+		display: block;
+		text-align:center;
+		float: left;
+		width: 20%;
+		height:2.0em;
+		
+		
+	}
+	.topnav a:hover{
+		background-color:#ffffff;
+		color:#000000;
+	}
+	
+	.topnav .active{
+		background-color:#000000;
+		color:#ffffff;
+	}
+	
+	section{
+		background-color:black;
+	}
+	
+	.photograph{
+		width:75%; height:auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+	}
+	
+	audio {
+		width:100%;
+	}
+
+#slideshow{
+	overflow:hidden;
+	height:510px;
+	width:728px;
+margin:0 auto;}
+	 
+.slideshow-container{
+	
+  max-width: 728px;
+  max-height:auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+
+.slide-wrapper{
+	width:5120px;
+	-webkit-animation: slide 18s ease infinite;
+}
+.slide{
+	float:left;
+	height:510px;
+	width:728px;
+	
+	/* Slideshow container */
+
+ 
+}
+
+@-webkit-keyframes slide{
+	5% {margin-left: 0px;}
+	15% {margin-left: -728px;}
+	25% {margin-left: -728px;}
+	35% {margin-left: -1456px;}
+	45% {margin-left: -1456px;}
+	55% {margin-left: -2184px;}
+	65% {margin-left: -2184px;}
+	75% {margin-left: -2910px;}
+	90% {margin-left: -2910px;}
+	
+}
+.video_container{
+	position:relative;
+	padding-bottom:56.25;
+	padding-top:30px;
+	height:auto;
+	overflow:hidden;
+}
+iframe, ._video_container object{
+	border:none;
+	position: relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+body footer{
+	width:100%;
+	font-style:italic;
+	text-align:center;
+}
+
+@media only screen and (max-width: 900px){
+#slideshow{display:small;}
+
+
+
+}
+
+
+
+@media only screen and (max-width:600px){
+	input{width: 100%}
+	body{margin-right: 5%;
+	margin-left: 5%;
+	width: 80%}
+	
+	.topnav {width:1005;
+		overflow:hidden;}
+		
+		
+	
+#slideshow {display:none;}
+}
+
+
+/* Text Area Styles */
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
